@@ -1,4 +1,4 @@
-module github.com/mad-app/mattermost-server
+module github.com/mad-app/mattermost-server/v5
 
 go 1.13
 
