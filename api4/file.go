@@ -16,9 +16,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/mattermost/mattermost-server/v5/app"
-	"github.com/mattermost/mattermost-server/v5/model"
-	"github.com/mattermost/mattermost-server/v5/utils"
+	"github.com/mad-app/mattermost-server/v5/app"
+	"github.com/mad-app/mattermost-server/v5/model"
+	"github.com/mad-app/mattermost-server/v5/utils"
 )
 
 const (

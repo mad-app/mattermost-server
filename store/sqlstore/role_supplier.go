@@ -9,9 +9,9 @@ import (
 	"net/http"
 	"strings"
 
+	"github.com/mad-app/mattermost-server/v5/model"
+	"github.com/mad-app/mattermost-server/v5/store"
 	"github.com/mattermost/gorp"
-	"github.com/mattermost/mattermost-server/v5/model"
-	"github.com/mattermost/mattermost-server/v5/store"
 )
 
 type SqlRoleStore struct {

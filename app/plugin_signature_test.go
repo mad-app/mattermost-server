@@ -9,7 +9,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/mattermost/mattermost-server/v5/utils/fileutils"
+	"github.com/mad-app/mattermost-server/v5/utils/fileutils"
 	"github.com/stretchr/testify/require"
 )
 

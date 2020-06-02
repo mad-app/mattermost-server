@@ -18,10 +18,10 @@ import (
 	"time"
 
 	"github.com/dyatlov/go-opengraph/opengraph"
-	"github.com/mattermost/mattermost-server/v5/model"
-	"github.com/mattermost/mattermost-server/v5/services/httpservice"
-	"github.com/mattermost/mattermost-server/v5/services/imageproxy"
-	"github.com/mattermost/mattermost-server/v5/utils/testutils"
+	"github.com/mad-app/mattermost-server/v5/model"
+	"github.com/mad-app/mattermost-server/v5/services/httpservice"
+	"github.com/mad-app/mattermost-server/v5/services/imageproxy"
+	"github.com/mad-app/mattermost-server/v5/utils/testutils"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

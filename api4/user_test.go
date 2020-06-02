@@ -12,11 +12,11 @@ import (
 	"time"
 
 	"github.com/dgryski/dgoogauth"
-	"github.com/mattermost/mattermost-server/v5/app"
-	"github.com/mattermost/mattermost-server/v5/model"
-	"github.com/mattermost/mattermost-server/v5/services/mailservice"
-	"github.com/mattermost/mattermost-server/v5/store/localcachelayer"
-	"github.com/mattermost/mattermost-server/v5/utils/testutils"
+	"github.com/mad-app/mattermost-server/v5/app"
+	"github.com/mad-app/mattermost-server/v5/model"
+	"github.com/mad-app/mattermost-server/v5/services/mailservice"
+	"github.com/mad-app/mattermost-server/v5/store/localcachelayer"
+	"github.com/mad-app/mattermost-server/v5/utils/testutils"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

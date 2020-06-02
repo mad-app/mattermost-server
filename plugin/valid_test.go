@@ -8,7 +8,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/mattermost/mattermost-server/v5/plugin"
+	"github.com/mad-app/mattermost-server/v5/plugin"
 )
 
 func TestIsValid(t *testing.T) {

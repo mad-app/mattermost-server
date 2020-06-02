@@ -5,7 +5,7 @@
 package mocks
 
 import (
-	store "github.com/mattermost/mattermost-server/v5/store"
+	store "github.com/mad-app/mattermost-server/v5/store"
 	mock "github.com/stretchr/testify/mock"
 )
 

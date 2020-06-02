@@ -13,11 +13,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/mattermost/mattermost-server/v5/app"
-	"github.com/mattermost/mattermost-server/v5/config"
-	"github.com/mattermost/mattermost-server/v5/model"
-	"github.com/mattermost/mattermost-server/v5/plugin"
-	"github.com/mattermost/mattermost-server/v5/utils"
+	"github.com/mad-app/mattermost-server/v5/app"
+	"github.com/mad-app/mattermost-server/v5/config"
+	"github.com/mad-app/mattermost-server/v5/model"
+	"github.com/mad-app/mattermost-server/v5/plugin"
+	"github.com/mad-app/mattermost-server/v5/utils"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )
@@ -148,7 +148,7 @@ func TestStaticFilesRequest(t *testing.T) {
 	package main
 
 	import (
-		"github.com/mattermost/mattermost-server/v5/plugin"
+		"github.com/mad-app/mattermost-server/v5/plugin"
 	)
 
 	type MyPlugin struct {
@@ -235,7 +235,7 @@ func TestPublicFilesRequest(t *testing.T) {
 	package main
 
 	import (
-		"github.com/mattermost/mattermost-server/v5/plugin"
+		"github.com/mad-app/mattermost-server/v5/plugin"
 	)
 
 	type MyPlugin struct {

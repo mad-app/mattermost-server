@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/mattermost/mattermost-server/v5/plugin"
+	"github.com/mad-app/mattermost-server/v5/plugin"
 )
 
 type HelloWorldPlugin struct {

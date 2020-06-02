@@ -7,8 +7,8 @@ import (
 	"testing"
 	"time"
 
+	"github.com/mad-app/mattermost-server/v5/model"
 	"github.com/mattermost/go-i18n/i18n"
-	"github.com/mattermost/mattermost-server/v5/model"
 	"github.com/stretchr/testify/assert"
 )
 

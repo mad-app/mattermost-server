@@ -6,8 +6,8 @@ package app
 import (
 	"strings"
 
+	"github.com/mad-app/mattermost-server/v5/model"
 	goi18n "github.com/mattermost/go-i18n/i18n"
-	"github.com/mattermost/mattermost-server/v5/model"
 )
 
 type CodeProvider struct {

@@ -4,15 +4,16 @@
 package commands
 
 import (
-	"github.com/stretchr/testify/assert"
 	"strconv"
 	"strings"
 	"testing"
 
+	"github.com/stretchr/testify/assert"
+
 	"github.com/stretchr/testify/require"
 
-	"github.com/mattermost/mattermost-server/v5/api4"
-	"github.com/mattermost/mattermost-server/v5/model"
+	"github.com/mad-app/mattermost-server/v5/api4"
+	"github.com/mad-app/mattermost-server/v5/model"
 )
 
 func TestListWebhooks(t *testing.T) {

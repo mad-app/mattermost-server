@@ -6,9 +6,9 @@ package app
 import (
 	"testing"
 
-	"github.com/mattermost/mattermost-server/v5/einterfaces"
-	"github.com/mattermost/mattermost-server/v5/einterfaces/mocks"
-	"github.com/mattermost/mattermost-server/v5/model"
+	"github.com/mad-app/mattermost-server/v5/einterfaces"
+	"github.com/mad-app/mattermost-server/v5/einterfaces/mocks"
+	"github.com/mad-app/mattermost-server/v5/model"
 	"github.com/stretchr/testify/assert"
 )
 

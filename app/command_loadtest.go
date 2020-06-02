@@ -11,10 +11,10 @@ import (
 	"strconv"
 	"strings"
 
+	"github.com/mad-app/mattermost-server/v5/mlog"
+	"github.com/mad-app/mattermost-server/v5/model"
+	"github.com/mad-app/mattermost-server/v5/utils"
 	goi18n "github.com/mattermost/go-i18n/i18n"
-	"github.com/mattermost/mattermost-server/v5/mlog"
-	"github.com/mattermost/mattermost-server/v5/model"
-	"github.com/mattermost/mattermost-server/v5/utils"
 )
 
 var usage = `Mattermost testing commands to help configure the system
@@ -409,7 +409,7 @@ func (me *LoadTestProvider) UrlCommand(a *App, args *model.CommandArgs, message 
 
 	// provide a shortcut to easily access tests stored in doc/developer/tests
 	if !strings.HasPrefix(url, "http") {
-		url = "https://raw.githubusercontent.com/mattermost/mattermost-server/master/tests/" + url
+		url = "https://raw.githubusercontent.com/mad-app/mattermost-server/master/tests/" + url
 
 		if path.Ext(url) == "" {
 			url += ".md"
@@ -459,7 +459,7 @@ func (me *LoadTestProvider) JsonCommand(a *App, args *model.CommandArgs, message
 
 	// provide a shortcut to easily access tests stored in doc/developer/tests
 	if !strings.HasPrefix(url, "http") {
-		url = "https://raw.githubusercontent.com/mattermost/mattermost-server/master/tests/" + url
+		url = "https://raw.githubusercontent.com/mad-app/mattermost-server/master/tests/" + url
 
 		if path.Ext(url) == "" {
 			url += ".json"

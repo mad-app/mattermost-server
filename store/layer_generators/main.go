@@ -213,8 +213,8 @@ package store
 import (
 	timemodule "time"
 
-    "github.com/mattermost/mattermost-server/v5/einterfaces"
-	"github.com/mattermost/mattermost-server/v5/model"
+    "github.com/mad-app/mattermost-server/v5/einterfaces"
+	"github.com/mad-app/mattermost-server/v5/model"
 )
 
 type {{.Name}} struct {

@@ -7,8 +7,8 @@ import (
 	sq "github.com/Masterminds/squirrel"
 	_ "github.com/go-sql-driver/mysql"
 	_ "github.com/lib/pq"
+	"github.com/mad-app/mattermost-server/v5/store"
 	"github.com/mattermost/gorp"
-	"github.com/mattermost/mattermost-server/v5/store"
 )
 
 /*type SqlStore struct {

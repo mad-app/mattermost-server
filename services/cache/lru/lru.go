@@ -16,7 +16,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/mattermost/mattermost-server/v5/services/cache"
+	"github.com/mad-app/mattermost-server/v5/services/cache"
 )
 
 // Cache is a thread-safe fixed size LRU cache.

@@ -17,6 +17,7 @@ import (
 	"strings"
 	"time"
 
+	mt_model "github.com/mad-app/mad-talk/platform/msg/model"
 	"github.com/mattermost/ldap"
 )
 
@@ -2498,6 +2499,7 @@ type Config struct {
 	PasswordSettings        PasswordSettings
 	FileSettings            FileSettings
 	EmailSettings           EmailSettings
+	SmsSettings             mt_model.SmsSettings
 	RateLimitSettings       RateLimitSettings
 	PrivacySettings         PrivacySettings
 	SupportSettings         SupportSettings

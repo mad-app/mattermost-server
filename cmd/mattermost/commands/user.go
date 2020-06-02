@@ -10,8 +10,8 @@ import (
 	"io/ioutil"
 	"strings"
 
-	"github.com/mattermost/mattermost-server/v5/app"
-	"github.com/mattermost/mattermost-server/v5/model"
+	"github.com/mad-app/mattermost-server/v5/app"
+	"github.com/mad-app/mattermost-server/v5/model"
 	"github.com/spf13/cobra"
 )
 

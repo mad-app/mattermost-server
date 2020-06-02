@@ -10,7 +10,7 @@ import (
 	"net/http"
 	"net/rpc"
 
-	"github.com/mattermost/mattermost-server/v5/mlog"
+	"github.com/mad-app/mattermost-server/v5/mlog"
 )
 
 type httpResponseWriterRPCServer struct {

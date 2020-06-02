@@ -4,10 +4,11 @@
 package app
 
 import (
-	"github.com/stretchr/testify/assert"
 	"testing"
 
-	"github.com/mattermost/mattermost-server/v5/model"
+	"github.com/stretchr/testify/assert"
+
+	"github.com/mad-app/mattermost-server/v5/model"
 )
 
 func TestCheckIfRolesGrantPermission(t *testing.T) {

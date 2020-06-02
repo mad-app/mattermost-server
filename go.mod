@@ -8,6 +8,7 @@ require (
 	github.com/avct/uasurfer v0.0.0-20191028135549-26b5daa857f1
 	github.com/blang/semver v3.5.1+incompatible
 	github.com/dgryski/dgoogauth v0.0.0-20190221195224-5a805980a5f3
+	github.com/dimchansky/utfbom v1.1.0 // indirect
 	github.com/disintegration/imaging v1.6.2
 	github.com/dyatlov/go-opengraph v0.0.0-20180429202543-816b6608b3c8
 	github.com/fsnotify/fsnotify v1.4.7
@@ -29,12 +30,14 @@ require (
 	github.com/jaytaylor/html2text v0.0.0-20190408195923-01ec452cbe43
 	github.com/jmoiron/sqlx v1.2.0
 	github.com/lib/pq v1.3.0
+	github.com/mad-app/mattermost-server v4.10.10+incompatible // indirect
 	github.com/mattermost/go-i18n v1.11.0
 	github.com/mattermost/gorp v2.0.1-0.20190301154413-3b31e9a39d05+incompatible
 	github.com/mattermost/gosaml2 v0.3.2
+	github.com/mattermost/html2text v0.0.0-20170830143716-d47a5532a7bc // indirect
 	github.com/mattermost/ldap v0.0.0-20191128190019-9f62ba4b8d4d
 	github.com/mattermost/mattermost-server v5.11.1+incompatible // indirect
-	github.com/mattermost/mattermost-server/v5 v5.23.0
+	github.com/mattermost/mattermost-server/v5 v5.23.0 // indirect
 	github.com/mattermost/rsc v0.0.0-20160330161541-bbaefb05eaa0
 	github.com/mattermost/viper v1.0.4
 	github.com/mattn/go-sqlite3 v1.11.0
@@ -59,10 +62,12 @@ require (
 	golang.org/x/tools v0.0.0-20200213050514-49b8ac185c84
 	google.golang.org/appengine v1.6.4 // indirect
 	gopkg.in/asn1-ber.v1 v1.0.0-20181015200546-f715ec2f112d // indirect
+	gopkg.in/gomail.v2 v2.0.0-20160411212932-81ebce5c23df // indirect
 	gopkg.in/mail.v2 v2.3.1
 	gopkg.in/natefinch/lumberjack.v2 v2.0.0
 	gopkg.in/olivere/elastic.v5 v5.0.85 // indirect
 	gopkg.in/olivere/elastic.v6 v6.2.27
+	gopkg.in/throttled/throttled.v2 v2.2.4 // indirect
 	gopkg.in/yaml.v2 v2.2.8
 	willnorris.com/go/imageproxy v0.9.0
 )
